@@ -1,0 +1,48 @@
+/* footer */
+.footer {
+    background-color: rgb(29, 29, 29);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#goal {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.infos {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    color: rgb(187, 187, 187);
+}
+
+.footer-info a {
+    text-decoration: none;
+
+}
+
+.social-icon {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
