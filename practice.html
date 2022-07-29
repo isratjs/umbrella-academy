@@ -8,24 +8,33 @@
     <title>Umbrella Academy</title>
     <script src="https://kit.fontawesome.com/f147cfe3ba.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .wrapper a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: rgb(150, 72, 95);
+            padding: 10px;
+            border-radius: 3px;
+        }
+
+        .modal {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+        }
+    </style>>
 </head>
 
-<body>
-    <div class="max-w-sm w-full lg:max-w-full lg:flex">
-        <div
-            class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
-            <img src="images/course/course-1.png" alt="">
-        </div>
-        <div
-            class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-            <div class="mb-8">
-                <div class="text-gray-900 font-bold text-xl mb-2">Fundamental Of UI/UX Design</div>
-                <p class="text-gray-700 text-base">Some quick example text to build on the card title
-                    and make up the bulk of the card.</p>
-            </div>
-            <div class="flex items-center">
-                <h1>Price: $290</h1>
-            </div>
+<body class="mx-5 my-5">
+    <div id="modalbox" class="modal">
+        <div class="modalcontent">
+            <h1>CSS only modal</h1>
+            <p>this is modal</p>
+            <a href="#" class="" modalclose>&times;</a>
         </div>
     </div>
 </body>
